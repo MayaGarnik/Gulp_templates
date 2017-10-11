@@ -1,0 +1,6 @@
+{
+  "name": "materialize-libsass-template",
+  "dependencies": {
+    "materialize": "~0.97.0"
+  }
+}
