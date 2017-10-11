@@ -1,0 +1,37 @@
+{
+  "name": "gulp_bootstrap",
+  "version": "0.0.1",
+  "description": "bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp"
+  },
+  "author": "Garnik Maya",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^6.5.1",
+    "browser-sync": "^2.17.5",
+    "css-loader": "^0.23.1",
+    "eslint": "^3.2.2",
+    "gulp": "^3.9.1",
+    "gulp-cache": "^0.4.5",
+    "gulp-clean": "^0.3.2",
+    "gulp-color": "0.0.1",
+    "gulp-csscomb": "^3.0.8",
+    "gulp-debounce": "^1.0.2",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-load-plugins": "^1.2.4",
+    "gulp-merge-media-queries": "^0.2.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-pngmin": "^0.1.4",
+    "gulp-postcss": "^6.2.0",
+    "gulp-less": "^3.1.0",
+    "gulp-sourcemaps": "^2.2.0",
+    "gulp-util": "^3.0.7",
+    "gulp-wait": "0.0.2",
+    "gulp-watch": "^4.3.6",
+    "pngquant": "^1.1.1",
+    "run-sequence": "^1.2.2"
+  }
+}

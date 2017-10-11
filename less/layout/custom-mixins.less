@@ -1,0 +1,11 @@
+// custom mixins
+
+@import "../bootstrap-custom.less";
+
+// converting Pixels to EMs Example Usage
+// Example Usage
+// .em-size(12,15); // 12px with a context of 15px
+
+.em-size( @value: @font-size-base, @context: @font-size-base ) {
+	font-size: (@value / @context) + 0em;
+}
